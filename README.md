@@ -1,10 +1,18 @@
-# Dynamic_polybar
+# Dynamic polybar
 A polybar able to spawn on a focused monitor
 
 # Table of Content
-[[_TOC_]]
 
-# Once upon a time...
+- [Dynamic polybar](#dynamic-polybar)
+  - [Once upon a time](#once-upon-a-time)
+  - [What is](#what-is)
+  - [Prerequisites](#prerequisites)
+  - [Example](#example)
+  - [Polybar configuration example](#polybar-configuration-example)
+  - [Special thanks](#special-thanks)
+
+
+# Once upon a time
 Image you started to use Linux since a while and you decided to move to a tailing windows manager, let's say i3wm.
 
 Now imagine you don't like at all dmenu because when you install it it's so dark and so empy so you look for an alternative and you discover polybar. You love it because it's colored, simple to use and you can make a lot of new module with so simple script.
@@ -37,7 +45,7 @@ When clicking on the arrow module, the new tiny_polybar was appearing always on 
 
 Looking on the net, i didn't find a way to let the polybar spawn on the focused screen so...and i wrote a little script by mysef.
 
-# What is?
+# What is
 
 This repository contains a little script able to let spawn a polybar (or whatever else) on a focuse screen based on the mouse position.
 
